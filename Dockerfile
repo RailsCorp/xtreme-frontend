@@ -20,8 +20,6 @@ RUN apk --update add shadow &&\
 
 COPY / ./
 
-RUN chown -R xtreme_frontend:app $WORKSPACE
-
 RUN yarn global add vue-cli
 RUN yarn install
 
