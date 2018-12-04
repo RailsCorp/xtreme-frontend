@@ -5,6 +5,8 @@
 ## Build Setup
 
 ``` bash
+
+$ git clone 
 # install dependencies
 $ yarn install
 
